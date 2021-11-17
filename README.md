@@ -19,10 +19,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 Sanne 't Hooft (vervangen door jouw naam)
 
 #### Je startniveau:
-hier je startniveau (kies uit zwart, rood óf blauw)
+Rood
 
 #### Je focus:
-hier je focus (kies uit responsive óf surface plane)
+Meer responsive maar surface plane lijkt mij ook heel erg leuk!
  
 </details>
 
@@ -36,15 +36,16 @@ hier je focus (kies uit responsive óf surface plane)
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+https://www.seoulsista.nl/ (homescherm)
+https://www.seoulsista.nl/rotterdam-weena/ (specifieke pagina)
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+Landingspagina 
+<img src="./images/seoul_sista.png" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+Detailpagina 
+<img src="./images/seoul_sista_rotterdam.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
