@@ -74,12 +74,9 @@ main{
   justify-content: center;
   text-align: center;
 }
-article{
-  width: 100%;
-}
 
 h2{
-  width: 80%;
+  width: 100%;
   margin: 0.4em auto;
   color: var(--h2-color);
   font-family: museo-sans;
@@ -92,7 +89,7 @@ h2{
 }
 
 h3{
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   color:var(--main-color);
   font-family: museo-sans;
@@ -103,9 +100,21 @@ h3{
   padding: .5em;
   background-color: var(--tekst-background-color);
 }
+
+article{
+  width: 100%;
+}
+
+article:first-of-type section section{
+  width: 100%;
+  padding: 0;
+  margin: 0 0 .5em 0;
+}
+
 section{
   padding: 1.5em;
 }
+
 section p{
   font-family: museo-sans;
   font-weight: 300;
@@ -113,10 +122,12 @@ section p{
   color: var(--p-color);
   margin: 0.25em;
 }
+
 section{
   position: relative;
   overflow: hidden;
 }
+
 section img{
   width: 120%;
   position: absolute;
@@ -127,22 +138,25 @@ section img{
 section:first-of-type h3:nth-of-type(2){
   font-size: 0.6em;
 }
+
 section:first-of-type p:nth-of-type(4){
   margin-top: 0.7em;
 }
+
 section:first-of-type p:nth-of-type(5){
   font-style: italic;
   margin-bottom: 0.7em;
 }
+
 article:nth-of-type(3) section{
   background-color: var(--background-color);
 }
+
 article:nth-of-type(3) h3:nth-of-type(4){
   background-color:var(--h3-color-melding);
   color: var(--p-color);
   margin-top: 1em;
 }
-section:first-of-type section:nth-of-type(2){
-  background-color: violet;
-  padding: 0;
+article section section h3:nth-of-type(2){
+  padding: 0 .5em .5em .5em;
 }
