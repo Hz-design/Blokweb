@@ -50,6 +50,7 @@ font-display:auto;font-style:italic;font-weight:700;
 :root {
   --main-color:#fff;
   --background-color:#f3c0bc;
+  --background-color-transparent: rgb(243,192,188, 0.8);
   --background-highlight-color:#284534;
   
   --p-color:#000;
@@ -65,6 +66,8 @@ font-display:auto;font-style:italic;font-weight:700;
   
   --white-space:5vw;
 }
+
+/* Alegemene styling */
 main{
   padding: 0;
   margin: 0;
@@ -94,6 +97,19 @@ h3{
   color:var(--main-color);
   font-family: museo-sans;
   font-weight: 100;
+  font-size: 1em;
+  letter-spacing: .6em;
+  text-transform: uppercase;
+  padding: .5em;
+  background-color: var(--tekst-background-color);
+}
+
+h4{
+  width: 100%;
+  margin: 0 auto;
+  color:var(--main-color);
+  font-family: museo-sans;
+  font-weight: 100;
   font-size: 0.8em;
   letter-spacing: .6em;
   text-transform: uppercase;
@@ -105,39 +121,61 @@ article{
   width: 100%;
 }
 
-article:first-of-type section section{
-  width: 100%;
-  padding: 0;
-  margin: 0 0 .5em 0;
-}
-
 section{
+  position: relative;
   padding: 1.5em;
 }
 
 section p{
   font-family: museo-sans;
   font-weight: 300;
-  font-size: 0.8em;
+  font-size: 1em;
   color: var(--p-color);
   margin: 0.25em;
 }
 
-section{
-  position: relative;
+article section{
   overflow: hidden;
 }
 
-section img{
-  width: 120%;
+article:first-of-type{
+  background-image: url(../images/background-image-1.jpeg);
+  background-size: cover;
+}
+
+article:nth-of-type(2){
+  background-image: url(../images/background-image-2.jpeg);
+  background-size: cover;
+}
+
+article:nth-of-type(4){
+  background-image: url(../images/background-image-3.jpeg);
+  background-size: cover;
+  filter: grayscale(1);
+}
+
+article section h4{
+  color: var(--main-color);
+  letter-spacing: .2em;
+  font-size: .8em;
+  padding: .1em .5em .5em .5em;
+}
+
+article section section{
+  width: 100%;
+  padding: 0;
+  margin: 0 0 .5em 0;
+}
+
+/*section img{
+  width: auto;
+  height: 100%;
   position: absolute;
   z-index: -1;
-  top: 0;
-  left: 0;
-}
-section:first-of-type h3:nth-of-type(2){
-  font-size: 0.6em;
-}
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}*/
 
 section:first-of-type p:nth-of-type(4){
   margin-top: 0.7em;
@@ -152,11 +190,97 @@ article:nth-of-type(3) section{
   background-color: var(--background-color);
 }
 
-article:nth-of-type(3) h3:nth-of-type(4){
+.hovertekst{
+  display: none;
+}
+
+.hovertekst p{
+  color: black;
+}
+article section div{
+  transition: .5s;
+}
+
+article:hover section .hovertekst,
+article:focus section .hovertekst{
+  display: flex;
+  flex-direction: column;
+}
+
+article:hover section .normaaltekst h2{
+  color: var(--background-highlight-color);
+  font-family: museo-sans;
+  font-weight: 700;
+  font-size: 1.2em;
+  letter-spacing: .5em;
+  text-transform: uppercase;
+  padding: 3em .2em .2em .2em;
+  background-color: inherit;
+}
+
+article:hover .hovertekst p:last-of-type,
+article:focus .hovertekst p:last-of-type{
+  padding-bottom: 3em;
+}
+article:hover section .normaaltekst h3,
+article:hover section .normaaltekst h3,
+article:hover section .normaaltekst h4,
+article:hover section .normaaltekst h4 {
+  color: var(--background-highlight-color);
+  font-family: museo-sans;
+  font-weight: 100;
+  font-size: 1em;
+  margin-top: 0;
+  letter-spacing: .6em;
+  text-transform: uppercase;
+  padding: .2em;
+  background-color: inherit;
+}
+
+
+article:hover section .container,
+article:focus section .container{
+  background: var(--background-color-transparent);
+  padding: .3em;
+}
+
+article:hover .bordergrootte,
+article:focus .bordergrootte{
+  padding: 4em 0em 4em 0em;
+}
+
+.geel{
   background-color:var(--h3-color-melding);
   color: var(--p-color);
   margin-top: 1em;
+  font-size: 1em;
 }
-article section section h3:nth-of-type(2){
-  padding: 0 .5em .5em .5em;
+
+@media (min-width:45em){
+  main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  article{
+    height: 50vh;
+    width: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
+  article:nth-of-type(3){
+    background-color:var(--background-color);
+  }
+}
+
+@media (min-width: 62.5em){
+  main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  article{
+    height: 100vh;
+    width: auto;
+  }
 }
