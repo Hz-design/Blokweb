@@ -83,11 +83,11 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| Hong Zhou      | student 2          | student 3    | student 4        |
+| Hong Zhou      | Rosella         | Ilias    | Stefan       |
 | ---            | ---                | ---          | ---              |
-| transparante animatie in achtergrond | en dit             | en ik dit    | en dan ik dat    |
-| google maps op je website | dit als er tijd is | nog een punt | dit wil ik zeker |
-| img grijswaarde maken op css| ...                | ...          | ...              |
+| transparante animatie in achtergrond | Sections zonder heading | Werken met mediaqueries | a centreren li    |
+| google maps op je website | h3 twee woorden apart stylen css | Online fonts en iconen gebruiken | items aan dropdown toevoegen |
+| img grijswaarde maken op css| crop images asymmetrisch | Flexbox met één kolom of meerdere beginnen  | lijst onzichtbaar maken met een knop |
 
 
 ### Verslag van meeting
@@ -116,11 +116,11 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
+| Rosella Moens     | Ilias Ouyaliz       | Hong Zhou    | student 4        |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Js/css header kruisje/hamburger | Hamburgermenu layout| Mag een tweede css pagina?| en dan ik dat    |
+| Css tweede html pagina | Css grid grootte | CSS background image cover centreren?| dit wil ik zeker |
+| Hoeveel media queries?| Hoe exact namaken? | Hover van afbeelding naar video| ...              |
 
 
 ### Verslag van meeting
