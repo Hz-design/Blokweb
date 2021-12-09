@@ -9,6 +9,12 @@
  * http://www.adobe.com/products/eulas/tou_typekit. For font license
  * information, see the list below.
  *
+ * museo:
+ *   - http://typekit.com/eulas/000000000000000000011b23
+ *   - http://typekit.com/eulas/000000000000000000011b24
+ *   - http://typekit.com/eulas/000000000000000077359969
+ *   - http://typekit.com/eulas/000000000000000077359949
+ *
  * museo-sans:
  *   - http://typekit.com/eulas/00000000000000000000e7fe
  *   - http://typekit.com/eulas/00000000000000000000e802
@@ -19,6 +25,8 @@
  */
 /*{"last_published":"2021-11-25 13:36:20 UTC"}*/
 
+
+/* De geïmporteerde fonts */
 @import url("https://p.typekit.net/p.css?s=1&k=sug4rsk&ht=tk&f=2005.2006.2009.2010&a=20046581&app=typekit&e=css");
 
 @font-face {
@@ -45,27 +53,105 @@ src:url("https://use.typekit.net/af/2841b6/00000000000000000000e806/27/l?primer=
 font-display:auto;font-style:italic;font-weight:700;
 }
 
+@import url("https://p.typekit.net/p.css?s=1&k=sug4rsk&ht=tk&f=1981.1983.8542.8544.2005.2006.2009.2010&a=20046581&app=typekit&e=css");
+
+@font-face {
+font-family:"museo";
+src:url("https://use.typekit.net/af/f7c91f/000000000000000000011b23/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/f7c91f/000000000000000000011b23/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/f7c91f/000000000000000000011b23/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:300;
+}
+
+@font-face {
+font-family:"museo";
+src:url("https://use.typekit.net/af/8a79e7/000000000000000000011b24/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/8a79e7/000000000000000000011b24/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/8a79e7/000000000000000000011b24/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"museo";
+src:url("https://use.typekit.net/af/64e458/000000000000000077359969/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("woff2"),url("https://use.typekit.net/af/64e458/000000000000000077359969/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("woff"),url("https://use.typekit.net/af/64e458/000000000000000077359969/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:300;
+}
+
+@font-face {
+font-family:"museo";
+src:url("https://use.typekit.net/af/3e30bd/000000000000000077359949/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/3e30bd/000000000000000077359949/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/3e30bd/000000000000000077359949/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;
+}
+
+@font-face {
+font-family:"museo-sans";
+src:url("https://use.typekit.net/af/620bf8/00000000000000000000e7fe/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/620bf8/00000000000000000000e7fe/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/620bf8/00000000000000000000e7fe/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:300;
+}
+
+@font-face {
+font-family:"museo-sans";
+src:url("https://use.typekit.net/af/5cca6d/00000000000000000000e802/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("woff2"),url("https://use.typekit.net/af/5cca6d/00000000000000000000e802/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("woff"),url("https://use.typekit.net/af/5cca6d/00000000000000000000e802/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:300;
+}
+
+@font-face {
+font-family:"museo-sans";
+src:url("https://use.typekit.net/af/e3ca36/00000000000000000000e805/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/e3ca36/00000000000000000000e805/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/e3ca36/00000000000000000000e805/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"museo-sans";
+src:url("https://use.typekit.net/af/2841b6/00000000000000000000e806/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/2841b6/00000000000000000000e806/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/2841b6/00000000000000000000e806/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;
+}
+
+.tk-museo { font-family: "museo",serif; }
+.tk-museo-sans { font-family: "museo-sans",sans-serif; }
 .tk-museo-sans { font-family: "museo-sans",sans-serif; }
 
+
+
+/* Algemene custom properties */
 :root {
   --main-color:#fff;
   --background-color:#f3c0bc;
   --background-color-transparent: rgb(243,192,188, 0.8);
   --background-highlight-color:#284534;
+  --background-highlight-color-darker:#163021;
+  --background-highlight-color-transparent: rgb(40,69,52,0.9);
+  --background-color-footer: #272425;
   
   --p-color:#000;
+  --p-color-pink:#f3c0bc;
   --tekst-background-color:#272425;
+  --link-hover-color: #b36b65;
   
   --button-color:#000;
   --button-background-color:gold;
   
   --h2-color:#f3c0bc;
+  --h2-color-groen:#284534;
+  --h2-color-black: #000;
   --h3-color:#fff;
   --h3-color-melding: gold;
   --accent-background-color:#777;
   
   --white-space:5vw;
+  
+  --normal-padding:.5em;
+  --normal-margin:.5em;
+
+  --font-family-sans:museo-sans;
+  --font-family:museo;
+
+  --font-size: 1em;
+  --font-size-h2: 1.2em;
+  --font-size-cta: .5em;
+  --font-size-h3: .9em;
+
+  --letter-spacing: .5em;
+  --letter-spacing-inline: .2em;
 }
+
+
 
 /* Alegemene styling */
 main{
@@ -78,13 +164,28 @@ main{
   text-align: center;
 }
 
+
+
+/* Titels */
+h1{
+    width: 100%;
+    margin: 0.4em auto;
+    color: var(--h2-color);
+    font-family: var(--font-family-sans);
+    font-weight: 700;
+    font-size: var(--font-size-h2);
+    letter-spacing: .5em;
+    text-transform: uppercase;
+    padding: .5em;
+    background-color: var(--tekst-background-color);
+}
 h2{
   width: 100%;
   margin: 0.4em auto;
   color: var(--h2-color);
-  font-family: museo-sans;
+  font-family: var(--font-family-sans);
   font-weight: 700;
-  font-size: 1.2em;
+  font-size: var(--font-size-h2);
   letter-spacing: .5em;
   text-transform: uppercase;
   padding: .5em;
@@ -117,6 +218,584 @@ h4{
   background-color: var(--tekst-background-color);
 }
 
+
+
+/* navigatie styling */
+header nav span{
+  transition: .5s;
+}
+
+header nav .hamburger-menu{
+  position: fixed;
+  z-index: 10;
+  right: 0;
+  top: 0;
+  padding: var(--normal-padding);
+}
+
+header nav span:nth-of-type(2){
+  background-color: var(--background-highlight-color-transparent);
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  z-index: 5;
+  display: grid;
+  grid-auto-columns: min-content;
+  place-content: center;
+  text-align: center;
+  transform: translateX(100%);
+}
+
+header nav ul:first-of-type{
+  padding: var(--normal-padding);
+  color: var(--h2-color);
+}
+
+header nav ul:first-of-type li{
+  list-style-type: none;
+  font-family:var(--font-family);
+  font-weight: 300;
+  font-size: 2em;
+}
+
+header nav ul:nth-of-type(2){
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: center;
+  padding: var(--normal-padding);
+}
+
+header nav span ul:first-of-type li:hover{
+  color: var(--link-hover-color);
+}
+
+.facebook{
+  width: 1em;
+  height: auto;
+  margin: var(--normal-margin);
+}
+
+.instagram{
+  width: 1em;
+  height: auto;
+  margin: var(--normal-margin);
+}
+
+header nav span:nth-of-type(2).toonMenu{
+  transform: translateX(0%);
+}
+
+.call-to-action{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 4;
+}
+
+.call-to-action ul{
+  font-size: var(--font-size-cta);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--background-highlight-color-transparent);
+}
+
+.call-to-action ul li{
+  padding: .5em;
+  text-transform: uppercase;
+}
+
+
+
+
+/* Styling Homepage: Witte de with, van boven naar beneden*/
+.homepage{
+  display: grid;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  align-items: center;
+  column-count: 1;
+  background-color: var(--background-color);
+}
+
+.homepage h1, .homepage h2, .homepage h3, .homepage h4{
+  background-color: inherit;
+  color: var(--h2-color-black);
+}
+
+
+
+/* Styling van de eerste section */
+.homepage .first-section{
+  background-image: url(../images/background-image-2.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: auto;
+}
+
+.homepage section:first-of-type figure img{
+  width: 10em;
+  height: auto;
+  padding-top: 5em;
+}
+
+.homepage section:first-of-type .groen-rondje{
+  position: relative;
+  background-color: var(--background-highlight-color);
+  border-radius: 50%;
+  height: 40vh;
+  width: 40vh;
+  padding: 2em;
+  margin-top: 5em;
+}
+
+.homepage section:first-of-type div span{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+}
+
+.homepage section:first-of-type div span h1{
+  padding: 0;
+  letter-spacing: var(--letter-spacing);
+  font-size: var(--font-size-h2);
+  color: var(--h2-color);
+}
+
+.homepage section:first-of-type div span h2{
+  padding: 0;
+  letter-spacing: var(--letter-spacing);
+  font-size: var(--font-size-h2);
+  color: var(--h2-color);
+}
+
+.homepage section:first-of-type div span p{
+  color: var(--main-color);
+  padding: .1em;
+}
+
+.homepage section:first-of-type div span p:first-of-type,
+.homepage section:first-of-type div span p:nth-of-type(3){
+  padding-top: .6em;
+}
+
+.homepage section:first-of-type div span p:last-of-type{
+  font-style: italic;
+}
+
+
+
+/* Styling van de tweede section */
+.homepage section:nth-of-type(2){
+  background-color: var(--background-color);
+  padding: 1.2em;
+}
+
+.homepage section:nth-of-type(2) h2{
+  padding: .5em;
+  letter-spacing: var(--letter-spacing);
+  font-size: var(--font-size-h2);
+  color: var(--h2-color-black);
+}
+
+.homepage section:nth-of-type(2) h3{
+  padding: .5em;
+  letter-spacing: var(--letter-spacing-inline);
+  font-size: var(--font-size-h3);
+  color: var(--h2-color-black);
+  text-transform: none;
+  font-weight: bold;
+  font-family: var(--font-family);
+}
+
+.homepage section:nth-of-type(2) p{
+  padding-bottom: 1.2em;
+}
+
+.homepage section:nth-of-type(2) p:nth-of-type(6),
+.homepage section:nth-of-type(2) p:last-of-type{
+  font-style: italic;
+}
+
+
+
+/* Styling van de derde section */
+.homepage section:nth-of-type(3){
+  padding: 0;
+  background-color: var(--background-highlight-color);
+}
+
+.homepage section:nth-of-type(3) figure img{
+ width: 100%;
+ height: auto;
+}
+
+
+
+/* Styling van de vierde section */
+.homepage section:nth-of-type(4){
+  background-image: url(../images/background-image-4.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 45vh;
+  width: auto;
+}
+
+.homepage section:nth-of-type(4) h4{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+  color:transparent;
+  font-family: var(--font-family-sans);
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: Uppercase;
+  letter-spacing:0.5em;
+  line-height: 2em;
+  animation: animate2 3s linear infinite;
+  background-color: inherit;
+}
+@keyframes animate2
+{
+  0%
+  {
+    color: #fff;
+    filter: blur(0px) hue-rotate(0deg);
+    text-shadow: 0 0 10px #00b3ff,
+      0 0 20px #00b3ff,
+      0 0 40px #00b3ff,
+      0 0 80px #00b3ff,
+      0 0 120px #00b3ff,
+      0 0 200px #00b3ff,
+      0 0 300px #00b3ff,
+      0 0 400px #00b3ff;
+  }
+  50%
+  {
+    color: #fff;
+    filter:blur(1px) hue-rotate(360deg);
+    text-shadow: 0 0 10px #00b3ff,
+      0 0 20px #00b3ff,
+      0 0 40px #00b3ff,
+      0 0 80px #00b3ff,
+      0 0 120px #00b3ff,
+      0 0 200px #00b3ff,
+      0 0 300px #00b3ff,
+      0 0 400px #00b3ff;
+  }
+  100%
+  {
+    color: #fff;
+    filter:blur(0px) hue-rotate(360deg);
+    text-shadow: 0 0 10px #00b3ff,
+      0 0 20px #00b3ff,
+      0 0 40px #00b3ff,
+      0 0 80px #00b3ff,
+      0 0 120px #00b3ff,
+      0 0 200px #00b3ff,
+      0 0 300px #00b3ff,
+      0 0 400px #00b3ff;
+  }
+}
+
+
+
+/* Styling van de vijfde section */
+.homepage section:nth-of-type(5){
+  position: relative;
+  text-align: left;
+  background-color: var(--background-color);
+  z-index: 1;
+}
+
+.homepage section:nth-of-type(5) h4{
+  font-family: var(--font-family);
+  font-size: var(--font-size-h3);
+}
+
+.homepage section:nth-of-type(5) h3{
+  font-size: var(--font-size-h2);
+  letter-spacing: var(--letter-spacing);
+  font-weight: bold;
+  padding-top: 0;
+}
+
+.homepage section:nth-of-type(5) p{
+  position: relative;
+  padding-top: 1.5em;
+  z-index: 3;
+  width: 20em;
+}
+
+.animation-sla{
+  width: 40vh;
+  position: absolute;
+  bottom: 0;
+  left: -1em;
+}
+
+.animation-sla img{
+  position: absolute;
+  width: 80%;
+  z-index: 2;
+  bottom: 1em;
+}
+
+
+
+/* Styling van de zesde section */
+.homepage section:nth-of-type(6){
+  padding: 0;
+}
+
+.homepage section:nth-of-type(6) figure{
+  position: relative;
+}
+
+.homepage section:nth-of-type(6) figure img{
+  width: 100%;
+  height: auto;
+  margin:0;
+  padding: 0;
+}
+
+
+
+
+/* Styling van de zevende section */
+.homepage section:nth-of-type(7){
+  position: relative;
+  margin: 0;
+  padding: 0;
+  max-width: 100vh;
+  height: 40vh;
+  z-index: 1;
+}
+
+.homepage section:nth-of-type(7) span{
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  flex-direction: column;
+  z-index: 3;
+}
+
+.homepage section:nth-of-type(7) h4{
+  width: 100%;
+  color:transparent;
+  font-family: var(--font-family-sans);
+  font-size: 1.6em;
+  font-weight: 700;
+  text-transform: Uppercase;
+  letter-spacing:0.5em;
+  line-height: 2em;
+  animation: animate2 3s linear infinite;
+  background-color: inherit;
+  padding: 0;
+  
+}
+
+.homepage section:nth-of-type(7) video{
+  position: absolute;
+  width: 160%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+
+
+/* Styling van de achste section */
+.homepage section:nth-of-type(8){
+  position: relative;
+  background-color: var(--background-highlight-color);
+}
+
+
+.homepage section:nth-of-type(8) aside{
+  text-align: left;
+  width: 100%;
+}
+
+.homepage section:nth-of-type(8) aside h3{
+  color: var(--h2-color);
+}
+
+.homepage section:nth-of-type(8) aside h3:nth-of-type(2){
+  font-weight: 700;
+}
+
+.homepage section:nth-of-type(8) aside ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.homepage section:nth-of-type(8) aside ul li{
+  color: var(--h2-color);
+  background-color: var(--background-highlight-color-darker);
+  padding: .2em;
+}
+
+.homepage section:nth-of-type(8) section{
+  padding: 0;
+  margin-top: 2em;
+}
+
+.homepage section:nth-of-type(8) section figure img{
+  padding:0;
+  width: 100%;
+}
+
+
+
+/* Styling van de negende section */
+.homepage section:nth-of-type(9){
+  position: relative;
+  margin: 0;
+  padding: 0;
+  max-width: 100vh;
+  height: 100vh;
+  z-index: 1;
+}
+
+.homepage section:nth-of-type(9) section{
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  flex-direction: column;
+  z-index: 3;
+}
+
+.homepage section:nth-of-type(9) section h2{
+  color: var(--h2-color);
+  font-family: var(--font-family);
+  font-weight: 300;
+}
+
+.homepage section:nth-of-type(9) section p{
+  color: var(--main-color);
+  font-family: var(--font-family);
+  letter-spacing: var(--letter-spacing-inline);
+}
+
+.homepage section:nth-of-type(9) video{
+  position: absolute;
+  width: auto;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+
+
+/* Styling van de tiende section */
+.homepage section:nth-of-type(10){
+  background-color: var(--background-color);
+}
+
+.homepage section:nth-of-type(10) h2{
+  color: var(--h2-color-groen);
+  padding: 0;
+  font-size: var(--font-size-h2);
+  letter-spacing: .4em;
+}
+
+.homepage section:nth-of-type(10) p{
+  color: var(--main-color);
+}
+
+
+
+/* Styling van de elfde section */
+.homepage section:nth-of-type(11){
+  background-color: var(--background-color);
+  position: relative;
+  max-width: 100vh;
+  height: 100%;
+}
+
+.homepage section:nth-of-type(11) section:first-of-type{
+  position:absolute;
+  display: flex;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.homepage section:nth-of-type(11) section:first-of-type figure img{
+  width: 3em;
+  padding: 0;
+}
+
+
+/* Styling van de twaalfde section */
+.homepage section:nth-of-type(12){
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(3em, auto);
+  gap: .5em;
+  background-color: var(--background-color);
+  align-items: center;
+}
+
+.homepage section:nth-of-type(12) figure{
+  position: relative;
+  max-width: 100%;
+}
+
+.homepage section:nth-of-type(12) figure img{
+  object-fit: cover;
+  width: 100%;
+}
+
+.homepage section:nth-of-type(12) a{
+  grid-column-end:-2;
+  background-color: var(--background-highlight-color);
+  padding: 1em;
+  color: var(--p-color-pink);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: var(--font-family);
+  font-size: .6em;
+}
+
+
+
+/* Styling voor de dertiende section */
+.homepage section:nth-of-type(13){
+  text-align: left;
+}
+.homepage section:nth-of-type(13) section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* Styling voor de article elementen: de 4 kolommen op index  */
 article{
   width: 100%;
 }
@@ -126,14 +805,6 @@ section{
   padding: 1.5em;
 }
 
-section p{
-  font-family: museo-sans;
-  font-weight: 300;
-  font-size: 1em;
-  color: var(--p-color);
-  margin: 0.25em;
-}
-
 article section{
   overflow: hidden;
 }
@@ -141,17 +812,19 @@ article section{
 article:first-of-type{
   background-image: url(../images/background-image-1.jpeg);
   background-size: cover;
+  background-position: center;
 }
 
 article:nth-of-type(2){
   background-image: url(../images/background-image-2.jpeg);
   background-size: cover;
+  background-position: center;
 }
 
 article:nth-of-type(4){
   background-image: url(../images/background-image-3.jpeg);
   background-size: cover;
-  filter: grayscale(1);
+  background-position: center;
 }
 
 article section h4{
@@ -165,25 +838,6 @@ article section section{
   width: 100%;
   padding: 0;
   margin: 0 0 .5em 0;
-}
-
-/*section img{
-  width: auto;
-  height: 100%;
-  position: absolute;
-  z-index: -1;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}*/
-
-section:first-of-type p:nth-of-type(4){
-  margin-top: 0.7em;
-}
-
-section:first-of-type p:nth-of-type(5){
-  font-style: italic;
-  margin-bottom: 0.7em;
 }
 
 article:nth-of-type(3) section{
@@ -201,6 +855,9 @@ article section div{
   transition: .5s;
 }
 
+
+
+/* Styling voor hovering */
 article:hover section .hovertekst,
 article:focus section .hovertekst{
   display: flex;
@@ -214,14 +871,10 @@ article:hover section .normaaltekst h2{
   font-size: 1.2em;
   letter-spacing: .5em;
   text-transform: uppercase;
-  padding: 3em .2em .2em .2em;
+  padding: .2em .2em .2em .2em;
   background-color: inherit;
 }
 
-article:hover .hovertekst p:last-of-type,
-article:focus .hovertekst p:last-of-type{
-  padding-bottom: 3em;
-}
 article:hover section .normaaltekst h3,
 article:hover section .normaaltekst h3,
 article:hover section .normaaltekst h4,
@@ -237,11 +890,12 @@ article:hover section .normaaltekst h4 {
   background-color: inherit;
 }
 
-
 article:hover section .container,
 article:focus section .container{
   background: var(--background-color-transparent);
-  padding: .3em;
+  padding: 3em 1em 3em 1em;
+  border-radius: 100%;
+  margin: 1em;
 }
 
 article:hover .bordergrootte,
@@ -256,8 +910,67 @@ article:focus .bordergrootte{
   font-size: 1em;
 }
 
+
+
+/* verborgen tekst styling  */
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+section:first-of-type li:nth-of-type(4){
+  margin-top: 0.7em;
+}
+
+section:first-of-type li:nth-of-type(5){
+  font-style: italic;
+  margin-bottom: 0.7em;
+}
+
+section p, section li{
+  font-family: museo-sans;
+  font-weight: 300;
+  font-size: 1em;
+  color: var(--p-color);
+  margin: 0.25em;
+  list-style-type: none;
+}
+
+
+
+/* Styling van de footer */
+footer{
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: var(--background-color-footer);
+  padding: 1em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+footer h3{
+  color: var(--h2-color);
+  padding: 0 0 .5em 0;
+}
+footer ul{
+  padding-bottom: 2em;
+}
+footer span ul:nth-of-type(2){
+  padding-left: 3em;
+}
+footer li{
+  padding: .3em 0 .3em 0;
+  color: var(--main-color);
+  font-family: var(--font-family);
+  list-style-type:none;
+}
+footer span{
+  display: flex;
+}
+
+/* Styling voor de website als de minimale breedte 45em is */
 @media (min-width:45em){
-  main{
+  main.index{
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
@@ -272,10 +985,21 @@ article:focus .bordergrootte{
   article:nth-of-type(3){
     background-color:var(--background-color);
   }
+
+  /* hover styling */
+  article:hover section .container,
+  article:focus section .container{
+  background: var(--background-color-transparent);
+  padding: 3em 1em 3em 1em;
+  margin: 1em;
+  border-radius: 0;
+  }
 }
 
+
+/* Styling voor de website als de minimaal breedte 62.5em is */
 @media (min-width: 62.5em){
-  main{
+  main.index{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
@@ -283,4 +1007,29 @@ article:focus .bordergrootte{
     height: 100vh;
     width: auto;
   }
+  /* hover styling */
+  article:hover section .container,
+  article:focus section .container{
+  background: var(--background-color-transparent);
+  padding: 3em 1em 3em 1em;
+  margin: 1em;
+  border-radius: 0;
+  }
 }
+
+
+/* Bronnen lijstje */
+/*
+Full screen video
+https://www.w3schools.com/howto/howto_css_fullscreen_video.asp
+
+Tekst in het midden centreren:
+https://blog.hubspot.com/website/center-text-in-css
+
+Css Make a backgorund image scroll slower than everything else:
+https://stackoverflow.com/questions/29240028/css-make-a-background-image-scroll-slower-than-everything-else
+
+HTML CSS glowing text animation effects | Happy Diwali 2021:
+https://www.youtube.com/watch?v=asv8uirb2R8&ab_channel=OnlineTutorials
+
+*/
