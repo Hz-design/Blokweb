@@ -147,21 +147,24 @@ Lijst met je bevindingen die in de test naar voren kwamen:
 
 #### Titel eerste bevinding
 Hier korte omschrijving (met indien nodig een afbeelding)
+Eerste Test, Voiceover, ik kwam erachter dat mijn linkjes niet goed ingeoveogd  zijn.
+De content wordt wel goed uitgesproken door de voiceover. 
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
 
 #### Titel tweede bevinding. 
 Hier korte omschrijving (met indien nodig een afbeelding)
-
+Muis en Toetsenbord, Mijn navigatie wordt momenteel niet gelezen als je er door heen tabt. 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
+Hoe het opgelost kan worden is, om er linkjes eraan toe te voegen.
 
 #### Titel volgende bevinding. 
 Hier korte omschrijving (met indien nodig een afbeelding)
+Contrast mag hoger, met de laag contrast oogziekte is de contrast niet hoog genoeg om de website goed te bezichtigen. Peripheal Field Loss, mijn tekst wat zwart op roze is is niet zo goed te zien door de lage contrast. En wit op roze al helemaal niet.
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
+Wit niet op roze verwerken, Lettertype grootte bolder maken. Wit op zwart werkt beter voor mensen met een oogbeperking. Een licht naar donker mode.
 
 #### Titel nog een bevinding. 
 Hier korte omschrijving (met indien nodig een afbeelding)
@@ -186,11 +189,11 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
+| Hong     | student 2          | student 3    | student 4        |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Met Media queries html (img src) aanpassen  | en dit             | en ik dit    | en dan ik dat    |
+| 9 images toevoegen met 1 button| dit als er tijd is | nog een punt | dit wil ik zeker |
+| hamburger menu animatie| ...                | ...          | ...              |
 
 
 ### Verslag van meeting
