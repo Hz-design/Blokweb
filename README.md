@@ -16,7 +16,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
-Sanne 't Hooft (vervangen door jouw naam)
+Hong Zhou
 
 #### Je startniveau:
 Rood
@@ -189,11 +189,11 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| Hong     | student 2          | student 3    | student 4        |
+| Hong     | Rosella Moens | Ilias   | Stefan     |
 | ---            | ---                | ---          | ---              |
-| Met Media queries html (img src) aanpassen  | en dit             | en ik dit    | en dan ik dat    |
-| 9 images toevoegen met 1 button| dit als er tijd is | nog een punt | dit wil ik zeker |
-| hamburger menu animatie| ...                | ...          | ...              |
+| Met Media queries html (img src) aanpassen  | JS animation            | Flexbox en css grid | ACcordion maken  |
+| 9 images toevoegen met 1 button| Darkmode colors in root |Logo in het midden | SVG Stroke uitlijnen naar binnen|
+| hamburger menu animatie| Footer flexen               | images width  | Pagina's overeenkomen? |
 
 
 ### Verslag van meeting
