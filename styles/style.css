@@ -253,9 +253,14 @@ header nav ul:first-of-type{
 
 header nav ul:first-of-type li{
   list-style-type: none;
-  font-family:var(--font-family);
+}
+
+header nav ul:first-of-type li a{
+  font-family: var(--font-family);
   font-weight: 300;
   font-size: 2em;
+  text-decoration: none;
+  color: var(--h2-color);
 }
 
 header nav ul:nth-of-type(2){
@@ -266,8 +271,13 @@ header nav ul:nth-of-type(2){
   padding: var(--normal-padding);
 }
 
-header nav span ul:first-of-type li:hover{
+header nav span ul:first-of-type li a:hover,
+header nav span ul:first-of-type li a:focus{
   color: var(--link-hover-color);
+}
+
+header nav span ul:first-of-type li a:active{
+  color: var(--h3-color-melding);
 }
 
 .facebook{
@@ -793,10 +803,114 @@ header nav span:nth-of-type(2).toonMenu{
 /* Styling voor de dertiende section */
 .homepage section:nth-of-type(13){
   text-align: left;
+  padding: 1em;
 }
+
+
+.homepage section:nth-of-type(13) p:first-of-type{
+  padding: 0;
+}
+
+.homepage section:nth-of-type(13) p{
+  width: 10em;
+  padding-bottom: 1em;
+  margin: 0;
+}
+
+.homepage section:nth-of-type(13) h2,
+.homepage section:nth-of-type(13) h3{
+  padding:0;
+}
+
+.homepage section:nth-of-type(13) h3{
+  padding: 1em 0 .2em 0;
+  letter-spacing: var(--letter-spacing-inline);
+  font-size: var(--font-size-h3);
+  font-weight: 700;
+  font-family: var(--font-family);
+}
+
+.homepage section:nth-of-type(13) h2:nth-of-type(2){
+  padding:.5em 0 .5em 0;
+  font-size: var(--font-size-h3);
+  letter-spacing: .1em;
+  font-family: var(--font-family);
+}
+
 .homepage section:nth-of-type(13) section{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding: 0;
+}
+
+.homepage section:nth-of-type(13) section ul li{
+  margin: 0;
+  padding: .2em 0 .2em 0;
+  font-style: normal;
+}
+
+
+
+/* Styling sections van de viertiende section PRIJZEN EN TIJDEN*/
+.homepage section:nth-of-type(14){
+  text-align: left;
+}
+
+.homepage section:nth-of-type(14) ul{
+  background-color: var(--background-highlight-color);
+  padding: var(--normal-padding);
+  display: flex;
+  flex-direction: column;
+}
+
+.homepage section:nth-of-type(14) ul li{
+  color: var(--main-color);
+  padding: .7em;
+  font-family: var(--font-family);
+}
+
+.homepage section:nth-of-type(14) ul li:nth-of-type(3){
+  padding: .7em .7em 0 .7em;
+}
+
+.homepage section:nth-of-type(14) ul li:nth-of-type(4){
+  padding: 0 .7em .7em .7em;
+}
+
+.homepage section:nth-of-type(14) ul li:nth-of-type(5),
+.homepage section:nth-of-type(14) ul li:nth-of-type(6),
+.homepage section:nth-of-type(14) ul li:nth-of-type(7),
+.homepage section:nth-of-type(14) ul li:nth-of-type(8){
+  padding: 0 .7em 0 .7em;
+}
+
+.homepage section:nth-of-type(14) ul li:first-of-type{
+  text-transform: uppercase;
+}
+
+.homepage section:nth-of-type(14) ul li:nth-of-type(3),
+.homepage section:nth-of-type(14) ul li:nth-of-type(5),
+.homepage section:nth-of-type(14) ul li:nth-of-type(7){
+  font-weight: 700;
+}
+
+
+
+/* Styling van de vijftiende section Reserveren en Google maps */
+.homepage section:nth-of-type(15){
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.homepage section:nth-of-type(15) figure:nth-of-type(2){
+  margin: 0;
+  padding: 0;
+  width: 90vw;
+}
+
+.homepage section:nth-of-type(15) figure:nth-of-type(2) img{
+  width: 100%;
 }
 
 /* Styling voor de article elementen: de 4 kolommen op index  */
@@ -863,12 +977,16 @@ article section div{
 
 /* Styling voor hovering */
 article:hover section .hovertekst,
-article:focus section .hovertekst{
+article:focus section .hovertekst,
+article:active section .hovertekst{
   display: flex;
   flex-direction: column;
 }
 
-article:hover section .normaaltekst h2{
+article:hover section .normaaltekst h2,
+article:focus section .normaaltekst h2,
+article:active section .normaaltekst h2
+{
   color: var(--background-highlight-color);
   font-family: museo-sans;
   font-weight: 700;
@@ -879,10 +997,12 @@ article:hover section .normaaltekst h2{
   background-color: inherit;
 }
 
+article:focus section .normaaltekst h3,
 article:hover section .normaaltekst h3,
-article:hover section .normaaltekst h3,
+article:active section .normaaltekst h3,
+article:focus section .normaaltekst h4,
 article:hover section .normaaltekst h4,
-article:hover section .normaaltekst h4 {
+article:active section .normaaltekst h4 {
   color: var(--background-highlight-color);
   font-family: museo-sans;
   font-weight: 100;
@@ -895,7 +1015,8 @@ article:hover section .normaaltekst h4 {
 }
 
 article:hover section .container,
-article:focus section .container{
+article:focus section .container,
+article:active section .container{
   background: var(--background-color-transparent);
   padding: 3em 1em 3em 1em;
   border-radius: 100%;
@@ -903,7 +1024,8 @@ article:focus section .container{
 }
 
 article:hover .bordergrootte,
-article:focus .bordergrootte{
+article:focus .bordergrootte,
+article:active .bordergrootte{
   padding: 4em 0em 4em 0em;
 }
 
@@ -972,6 +1094,10 @@ footer span{
   display: flex;
 }
 
+footer p{
+  color: var(--main-color);
+  font-family: var(--font-family);
+}
 /* Styling voor de website als de minimale breedte 45em is */
 @media (min-width:45em){
   main.index{
