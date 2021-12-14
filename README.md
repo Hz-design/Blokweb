@@ -77,7 +77,7 @@ Detailpagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ben bezig met de eerste pagina, het was gelukt om de content erin te plaatsen en nu nog alleen te animeren.
 
 
 ### Agenda voor meeting
@@ -93,10 +93,8 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Image grijswaarde maken via grayscale https://codepen.io/robertspier/pen/vYJoajb
+- animatie achtergrond : https://codepen.io/robertspier/pen/LYjwBRQ?editors=1010
 
 </details>
 
@@ -110,7 +108,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Zojuist begonnen met het begin van mijn tweede pagina, door de ingewikkelde css vroeg ik me af hoe ik het beste mijn css kon verdelen.
 
 
 ### Agenda voor meeting
@@ -126,10 +124,8 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- heb een link van Rowin gekregen over video achtergrond maar het is mij niet gelukt om met hover de video te activeren. https://www.w3schools.com/howto/howto_css_fullscreen_video.asp
+- met background-position center kon ik mijn afbeeldingen mooi in eht midden centreren waardoor ik verder kon.
 
 </details>
 
@@ -150,7 +146,9 @@ Hier korte omschrijving (met indien nodig een afbeelding)
 Eerste Test, Voiceover, ik kwam erachter dat mijn linkjes niet goed ingeoveogd  zijn.
 De content wordt wel goed uitgesproken door de voiceover. 
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Hier een omschrijving van hoe het opgelost kan worden.
+Mijn navigatie menu was nog een li en er zat nog geen a erin of ervoor waardoor de voiceover het oversloeg. 
+Nu heb ik er linkjes van gemaakt en pakt de voiceover ze wel.
 
 
 #### Titel tweede bevinding. 
@@ -166,10 +164,6 @@ Contrast mag hoger, met de laag contrast oogziekte is de contrast niet hoog geno
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 Wit niet op roze verwerken, Lettertype grootte bolder maken. Wit op zwart werkt beter voor mensen met een oogbeperking. Een licht naar donker mode.
 
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
 </details>
 
@@ -183,7 +177,7 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik had moeite met het uitwerken van enkele details van mijn website. Zoals dat ik op een knop druk en er komen 9 foto's eronder. En een animatie voor de hamburger menu
 
 
 ### Agenda voor meeting
@@ -199,10 +193,7 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- met display none kan ik de foto's verbergen en ze displayen met button.
 
 </details>
 
@@ -216,7 +207,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik had moeite met de iphone 5se ontwerp ik moest veel padding aangeven voor heel weinig effect: <img src="./images/readme/seoulsista_week-5.png" width="375px">
 
 ### Screenshot(s)
 
@@ -235,8 +226,16 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. Tekst in het midden centreren:
+https://blog.hubspot.com/website/center-text-in-css
+2. Full screen video
+https://www.w3schools.com/howto/howto_css_fullscreen_video.asp
+3. Changing :hover to touch/click voor mobile devices https://stackoverflow.com/questions/22559756/changing-hover-to-touch-click-for-mobile-devices
+4. Css Make a backgorund image scroll slower than everything else:
+https://stackoverflow.com/questions/29240028/css-make-a-background-image-scroll-slower-than-everything-else
+5. HTML CSS glowing text animation effects | Happy Diwali 2021:
+https://www.youtube.com/watch?v=asv8uirb2R8&ab_channel=OnlineTutorials
+6. How to create CSS Animations on Scroll 
+https://alvarotrigo.com/blog/css-animations-scroll/
 
 </details>
