@@ -208,10 +208,23 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Stand van zaken
 Ik had moeite met de iphone 5se ontwerp ik moest veel padding aangeven voor heel weinig effect: <img src="./images/readme/seoulsista_week-5.png" width="375px">
+Bij het maken van de screenshots van de website wordt de footer op de een of ander manier niet getoond.
 
 ### Screenshot(s)
 
 hier screenshot(s) van je eindresultaat
+Iphone 5se
+<img src="./images/readme/iphone_5se.png">
+De breakpoint 45em
+<img src="./images/readme/45em.html.png">
+De breakpoint 62.5em
+<img src="./images/readme/62.5em.png">
+
+Link naar de website:
+<a href="https://hz-design.github.io/Blokweb/"> Klik hier! voor de homepagina</a>
+
+<a href="https://hz-design.github.io/Blokweb/homepage.html"> Klik hier! voor de detailpagina</a>
+
 
 </details>
 
@@ -230,7 +243,8 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 https://blog.hubspot.com/website/center-text-in-css
 2. Full screen video
 https://www.w3schools.com/howto/howto_css_fullscreen_video.asp
-3. Changing :hover to touch/click voor mobile devices https://stackoverflow.com/questions/22559756/changing-hover-to-touch-click-for-mobile-devices
+3. Changing :hover to touch/click voor mobile devices
+https://stackoverflow.com/questions/22559756/changing-hover-to-touch-click-for-mobile-devices
 4. Css Make a backgorund image scroll slower than everything else:
 https://stackoverflow.com/questions/29240028/css-make-a-background-image-scroll-slower-than-everything-else
 5. HTML CSS glowing text animation effects | Happy Diwali 2021:
