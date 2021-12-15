@@ -221,7 +221,7 @@ h4{
 
 
 /* navigatie styling */
-header nav span{
+header nav div{
   transition: .5s;
 }
 
@@ -229,11 +229,16 @@ header nav .hamburger-menu{
   position: fixed;
   z-index: 10;
   right: 0;
-  top: 0;
+  top: 1em;
   padding: var(--normal-padding);
 }
 
-header nav span:nth-of-type(2){
+header nav button{
+  background-color: inherit;
+  border-width: inherit;
+}
+
+header nav div:first-of-type{
   background-color: var(--background-highlight-color-transparent);
   position: fixed;
   height: 100vh;
@@ -272,12 +277,12 @@ header nav ul:nth-of-type(2){
   padding: var(--normal-padding);
 }
 
-header nav span ul:first-of-type li a:hover,
-header nav span ul:first-of-type li a:focus{
+header nav ul:first-of-type li a:hover,
+header nav ul:first-of-type li a:focus{
   color: var(--link-hover-color);
 }
 
-header nav span ul:first-of-type li a:active{
+header nav ul:first-of-type li a:active{
   color: var(--h3-color-melding);
 }
 
@@ -293,7 +298,7 @@ header nav span ul:first-of-type li a:active{
   margin: var(--normal-margin);
 }
 
-header nav span:nth-of-type(2).toonMenu{
+header nav div:first-of-type.toonMenu{
   transform: translateX(0%);
 }
 
@@ -375,7 +380,7 @@ header nav span:nth-of-type(2).toonMenu{
   max-height: 20em;
 }
 
-.homepage section:first-of-type div span{
+.homepage section:first-of-type div div{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -383,31 +388,31 @@ header nav span:nth-of-type(2).toonMenu{
   width: 100%;
 }
 
-.homepage section:first-of-type div span h1{
+.homepage section:first-of-type div div h1{
   padding: 0;
   letter-spacing: var(--letter-spacing);
   font-size: var(--font-size-h2);
   color: var(--h2-color);
 }
 
-.homepage section:first-of-type div span h2{
+.homepage section:first-of-type div div h2{
   padding: 0;
   letter-spacing: var(--letter-spacing);
   font-size: var(--font-size-h2);
   color: var(--h2-color);
 }
 
-.homepage section:first-of-type div span p{
+.homepage section:first-of-type div div p{
   color: var(--main-color);
   padding: .1em;
 }
 
-.homepage section:first-of-type div span p:first-of-type,
-.homepage section:first-of-type div span p:nth-of-type(3){
+.homepage section:first-of-type div div p:first-of-type,
+.homepage section:first-of-type div div p:nth-of-type(3){
   padding-top: .6em;
 }
 
-.homepage section:first-of-type div span p:last-of-type{
+.homepage section:first-of-type div div p:last-of-type{
   font-style: italic;
 }
 
@@ -553,7 +558,7 @@ pixel grootte zorgt voor een gloeiende effect het wordt groter en kleiner.*/
   padding: 2em;
 }
 
-.homepage section:nth-of-type(5) h4{
+.homepage section:nth-of-type(5) h2{
   font-family: var(--font-family);
   font-size: var(--font-size-h3);
   padding: var(--normal-padding);
@@ -644,7 +649,7 @@ pixel grootte zorgt voor een gloeiende effect het wordt groter en kleiner.*/
   z-index: 1;
 }
 
-.homepage section:nth-of-type(7) span{
+.homepage section:nth-of-type(7) h4{
   position: absolute;
   width: 100%;
   top: 50%;
@@ -655,11 +660,11 @@ pixel grootte zorgt voor een gloeiende effect het wordt groter en kleiner.*/
   z-index: 3;
 }
 
-.homepage section:nth-of-type(7) h4{
+.homepage section:nth-of-type(7) h4 span{
   width: 100%;
   color:transparent;
   font-family: var(--font-family-sans);
-  font-size: 1.6em;
+  font-size: 2em;
   font-weight: 700;
   text-transform: Uppercase;
   letter-spacing:0.5em;
@@ -818,7 +823,7 @@ pixel grootte zorgt voor een gloeiende effect het wordt groter en kleiner.*/
   margin: 0.4em auto;
 }
 
-.homepage section:nth-of-type(11) span{
+.homepage section:nth-of-type(11) div{
   max-width: 70vw;
   position:absolute;
   display: flex;
@@ -827,12 +832,12 @@ pixel grootte zorgt voor een gloeiende effect het wordt groter en kleiner.*/
   transform: translate(-50%,-50%);
 }
 
-.homepage section:nth-of-type(11) span figure img{
+.homepage section:nth-of-type(11) div figure img{
   width: 2em;
   padding: 0;
 }
 
-.homepage section:nth-of-type(11) span h3{
+.homepage section:nth-of-type(11) div h3{
   font-size: .8em;
 }
 
@@ -1256,7 +1261,7 @@ footer h3{
 footer ul{
   padding-bottom: 2em;
 }
-footer span ul:nth-of-type(2){
+footer div ul:nth-of-type(2){
   padding-left: 3em;
 }
 footer li{
@@ -1265,7 +1270,7 @@ footer li{
   font-family: var(--font-family);
   list-style-type:none;
 }
-footer span{
+footer div{
   display: flex;
 }
 
@@ -1309,13 +1314,15 @@ footer p{
     grid-template-columns: 1fr 1fr;
   }
 
-  header nav .hamburger-menu{
+  header nav button.hamburger-menu{
     position: fixed;
     z-index: 10;
     right: 0;
     left: 0;
     top: 0;
-    height: 2.5em;
+    height: 4em;
+    width: 100%;
+    
     align-items: right;
     justify-content: right;
     place-content: right;
@@ -1325,6 +1332,7 @@ footer p{
   header nav .hamburger-menu img{
     position: absolute;
     right: 1em;
+    top: 1em;
   }
 
   article{
@@ -1468,11 +1476,11 @@ footer p{
     max-height: 40em;
   }
 
-  header nav span:first-of-type{
+  header nav button.hamburger-menu{
     display: none;
   }
 
-  header nav span:nth-of-type(2){
+  header nav div:first-of-type{
     transform: translateX(0);
     display: flex;
     top: 0;
@@ -1483,7 +1491,7 @@ footer p{
     align-items: center;
   }
   
-  header nav span:nth-of-type(2) ul{
+  header nav div:first-of-type ul{
     display: flex;
     flex-direction: row;
   }

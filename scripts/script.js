@@ -7,7 +7,7 @@ deButton.addEventListener("click", toggleMenu);
 //de functie toggleMenu wordt hiermee beschreven
 function toggleMenu(event) {
   //het veranderende element wordt hier gedeclareerd
-  deNav = document.querySelector("header nav span:nth-of-type(2)");
+  deNav = document.querySelector("header nav div:first-of-type");
   // hiermee krijgt de de functie een toggle optie om de class aan en uit te zetten
   deNav.classList.toggle("toonMenu");
 }
